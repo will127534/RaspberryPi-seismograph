@@ -15,6 +15,8 @@ Besure to open SPI interface before usage.
 Generate one day plot from the data, with CWB earthquake event overlay.
 It will automatically download the files using rclone and process it then upload back to the cloud using rclone, it is designed for server to process the data automatically.
 And rclone needs to setup before usage.
+it will generate somthing like this:
+![](https://i.imgur.com/LQMdwf7.png)
 
 ### Software/rclone-backup.sh
 Shell script for automatically upload the data to cloud, since the data from sensor is pretty large, it is better to upload it to cloud.
